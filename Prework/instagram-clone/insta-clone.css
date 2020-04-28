@@ -1,0 +1,258 @@
+header{
+    border: 1px solid #EEE;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    z-index: 10; 
+}
+ul, li {
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.header-center{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(249, 249, 249);
+    font-family: Arial;
+}
+.line{
+    float: left;
+    width: 1px;
+    height: 28px;
+    margin-top: 25px; 
+    margin-left: 15px;
+    background: black; 
+}
+.compass-icon{
+    float: left; 
+    margin-left: 230px;
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+.heart-icon{
+    float: left;
+    margin-left: 30px;
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+.ludzik-icon{
+    float: left;
+    margin-left: 30px;
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+.camera-logo{
+    float: left;
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+.insta-logo{
+    float: left; 
+    margin-left: 15px;
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+.search-bar input{
+    float: left; 
+    margin-left: 230px;
+    margin-top: 27px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 1px solid #DDD;
+    height: 22px;
+    width: 190px;
+    background-color: rgb(249, 249, 249);
+    text-align: center;
+    font-size: 0.9em;
+    opacity: 0.6;
+}
+.centered {
+    width: 1010px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 131px;
+}
+.content{
+    float: left;
+    border: 1px #EEE solid;
+    border-radius: 0.8%;
+    margin-left: 0px;
+    background-color: #FFF;
+    margin-bottom: 30px;
+}
+.around-photo-top .avatar-photo {
+    float: left; 
+    margin: 10px;
+}
+.avatar-photo{
+    background: linear-gradient(225deg, rgb(180, 58, 139) 10%, rgba(252,176,69,1) 90%);
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+.avatar-photo img {
+    border: 2px solid white;
+    margin: 2px;
+    border-radius: 50%;
+    height: 40px;
+}
+.avatar-photo.small{
+    height: 38px;
+    width: 38px;
+}
+.avatar-photo.small img {
+    height: 30px;
+}
+.username{
+    float: left;
+    margin-top: 25px;
+    margin-left: 8px;
+    font-size: 0.9em; 
+}
+.around-photo-bottom{
+    overflow: hidden;
+}
+.photo img{
+    width: 630px;
+    height: 750px;   
+}
+.like-icon{
+    margin-top: 10px;
+    margin-left: 25px; 
+    float: left;
+}
+ .comment-icon{
+     margin-top: 10px;
+     margin-left: 15px;
+    float: left;
+}
+.share-icon{
+    margin-top: 10px;
+    margin-left: 15px;
+    float: left;
+}
+.bookmark-icon{
+    margin-top: 10px;
+    margin-left: 465px;
+    float: left;
+}
+.likes{
+    margin-left: 25px;
+    font-size: 0.9em;
+}
+.description{
+    font-size: 0.9em;
+    margin-left: 25px;
+}
+.timestamp{
+   opacity: 0.5;
+   font-size: 0.7em; 
+   margin-left: 25px;
+}
+.add-comment{
+    border-top: 1px solid #EEE;
+}
+.add-comment input{
+    width: 500px;
+    outline: none;
+    font-size: 0.9em;
+    border: none;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.6; 
+}
+.right-side p{
+    padding:0;
+    margin:0;
+}
+.right-side {
+    margin-left: 670px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+}
+.profile{
+    overflow: hidden;
+    margin-top: 15px;
+}
+.avatar-photo{
+    float: left;
+}
+.profile-names{
+    float: left;
+}
+.profile-name{
+    font-size: 0.9em;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.profile-lower-name{
+    margin-top: 3px;
+    margin-left: 15px;
+    font-size: 0.8em;
+    opacity: 0.5; 
+}
+.stories{
+    margin-top: 20px;      
+}
+.stories .scroll-area{
+    height: 190px;
+}
+.suggestions {
+    margin-top: 20px;
+}
+
+.side-box {
+    border: 1px solid #DDD;
+    width: 280px;
+    background-color: #FFF;
+    border-radius: 2%;
+    overflow: hidden; 
+}
+.side-box .header {
+    overflow: hidden;
+    margin: 13px 20px 5px 20px;
+    font-weight: bold;
+}
+.side-box .header .title {
+    opacity: 0.4;
+    font-size: 0.9em;
+    float: left;
+}
+.side-box .header .action {
+    float: right;
+    font-size: 0.8em;
+}
+.side-box .scroll-area{
+    overflow: scroll;
+}
+
+ul.user-entries li {
+    overflow: hidden;
+    padding: 5px 15px; 
+}
+ul.user-entries li .avatar-photo {
+    margin: 0px;
+    float: left;
+}
+ul.user-entries li .label {
+    margin-left: 5px;
+    float: left;
+    margin: 3px 10px;
+}
+ul.user-entries li .label .minor {
+    font-size: 0.7em;
+    opacity: 0.5;
+}
+ul.user-entries li .label .major {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+

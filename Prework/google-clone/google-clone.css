@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    font-family: Arial;
+    font-size: 14px;
+}
+.head-line a{
+    text-decoration: none;
+    color: #666;
+    float: right;
+    margin-right: 20px;
+}
+
+#buttons{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#buttons button{
+    border-radius: 5px;
+    margin-left: 15px;
+    background-color: #EEE;
+    border: none;
+    padding: 12px; 
+    font-size: 15px;
+    color: #666;
+}
+#logo{
+    margin: 80px auto 0 auto;
+    width: 272px;
+}
+#search .microphone-icon{
+    width: 24px;
+    height: 24px;
+    background: url("googlemic.png");
+    background-size: 24px;
+    float: right;
+    margin: 10px;
+}
+
+#search .search-icon{
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+    float: left;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+#search .outer-text-field{
+    margin-top: 30px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 75px;
+}
+
+#search{
+    width: 500px;
+    margin: 0 auto;
+}
+
+#search input{
+    border: none;
+    width: 400px;
+    height: 40px;
+    outline: none;
+}
+
+footer{
+    background-color: #EEE;
+    color: #666;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-family: Arial;
+    font-size: 14px;
+
+}
+
+.first-line{
+    border: solid 1px rgb(211, 211, 211);
+}
+
+.first-line p{
+    margin-left: 20px;
+}
+
+.second-line a{
+    margin-left: 20px;
+    color: #666;
+    text-decoration: none;
+}
+
+.second-line a.right{
+    float: right;
+    margin-right: 20px;
+}

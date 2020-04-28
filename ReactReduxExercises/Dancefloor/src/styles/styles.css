@@ -1,0 +1,31 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div .wrapper {
+    border: 4px solid black;
+    display: grid;
+    grid-template: repeat(5, 100px)/repeat(5, 100px);
+    grid-gap: 4px;
+    background-color: black; 
+}	
+
+div .active {
+    background-color: peru;
+}
+
+div .not-active {
+    background-color: cornflowerblue;
+}
+
+
+
